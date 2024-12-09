@@ -2,6 +2,7 @@
   "name": "http-get-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://smudgelord200.github.io/http-get-app",
   "dependencies": {
     "@emotion/react": "^11.13.5",
     "@emotion/styled": "^11.13.5",
@@ -23,7 +24,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +49,7 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.1.0",
-    "ajv": "^7.2.4"
+    "ajv": "^7.2.4",
+    "gh-pages": "^6.2.0"
   }
 }
