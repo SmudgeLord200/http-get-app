@@ -26,6 +26,8 @@ const WeatherCard: React.FC<Props> = ({ weather }) => {
           alignItems: "center",
           justifyContent: "center",
           p: 3,
+          boxShadow: 3,
+          borderRadius: 2,
         }}
       >
         <Stack direction="column" spacing={1}>
